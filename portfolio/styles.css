@@ -120,6 +120,41 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   }
+
+#interests {
+  padding: 2rem 0;
+}
+
+#interests h2 {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+#interests .skills-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+#interests .skills-list li {
+  background: var(--card);
+  color: var(--text);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-weight: 500;
+  transition: transform 0.2s ease, background 0.3s;
+}
+
+#interests .skills-list li:hover {
+  transform: scale(1.05);
+  background: var(--accent);
+  color: white;
+}
+
   
   footer {
     background-color: var(--accent);
